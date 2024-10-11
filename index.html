@@ -33,12 +33,21 @@
     <h2>Download for Windows</h2>
     <p>The game will soon be available for Linux.</p>
     <div class="download-btns-div">
-        <a href="v1/dot_dash.zip" download>
-            <button>Download Bundled Application (For Faster Startup)</button>
-        </a>
-        <a href="v1/dot_dash_onefile.zip" download>
-            <button>Download the Application as a Single EXE (More Portable)</button>
-        </a>
+        <button class="download-button" data-download-url="v1/dot_dash.zip">Download Bundled Application (For Faster Startup)</button>
+        <button class="download-button" data-download-url="v1/dot_dash_onefile.zip">Download the Application as a Single EXE (More Portable)</button>
     </div>
+
+    <!-- Modal Box -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <p>You are granted a personal, non-exclusive, non-transferable, and non-commercial license to use this software. This software is licensed, not sold. <a href="license.html" target="_blank">See more</a></p>
+        <p>Please donot redistribute this software. Share the link to this website instead.</p>
+        <a href="https://coderapids.github.io/dot-dash-dist/">https://coderapids.github.io/dot-dash-dist/</a>
+        <button id="okBtn" class="ok-button">Agree and Download</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
